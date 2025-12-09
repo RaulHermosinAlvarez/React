@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Proyecto Web",
+    "description": "Desarrollo de una página web corporativa usando React."
+  },
+  {
+    "id": 2,
+    "name": "Sistema de Gestión",
+    "description": "Aplicación para gestión interna de clientes y facturación."
+  },
+  {
+    "id": 3,
+    "name": "Automatización Servidores",
+    "description": "Scripts para desplegar y configurar servidores automáticamente."
+  }
+]

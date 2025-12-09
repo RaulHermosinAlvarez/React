@@ -1,0 +1,11 @@
+{
+  "id":1,
+  "name":"Raul",  
+  "title": "Administrador de Sistemas",
+  "services": [
+    "Administración de servidores",
+    "Gestión de copias de seguridad",
+    "Monitorización de sistemas",
+    "Soporte técnico"
+  ]
+}
