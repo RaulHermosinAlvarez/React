@@ -2,16 +2,38 @@
   {
     "id": 1,
     "name": "Proyecto Web",
-    "description": "Desarrollo de una página web corporativa usando React."
+    "description": "Desarrollo de una página web corporativa usando React.",
+    "image": "proyectoWeb.jpg"
   },
   {
     "id": 2,
     "name": "Sistema de Gestión",
-    "description": "Aplicación para gestión interna de clientes y facturación."
+    "description": "Aplicación para gestión interna de clientes y facturación.",
+    "image": "oracle.jpg"
   },
   {
     "id": 3,
     "name": "Automatización Servidores",
-    "description": "Scripts para desplegar y configurar servidores automáticamente."
+    "description": "Scripts para desplegar y configurar servidores automáticamente.",
+    "image": "ubuntu.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Mantenimiento de equipos informáticos",
+    "description": "Una guía exacta de como mantener al día nuestro equipo informático",
+    "image": "mantenimiento.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Despliegue de un contenedor en docker",
+    "description": "Aprende a desplegar una imágen personalizada con docker compose",
+    "image": "docker.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Gestión de recursos",
+    "description": "Mejores aplicaciones para reducir la carga de tu equipo a la hora de ejecutar una tarea de peso",
+    "image": "gestion.jpg"
   }
+  
 ]

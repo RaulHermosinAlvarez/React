@@ -7,24 +7,37 @@ export default function ProjectsPage({ goToLanding }) {
   useEffect(() => getProjects(setProjects), []);
 
   return (
-    <main className="container">
+    <main className="projects-container">
       <h1>Proyectos realizados</h1>
-      <ul>
+
+      <div className="projects-grid">
         {projects.length > 0 ? (
           projects.map((p) => (
-            <li key={p.id}>
-              <h3>{p.name}</h3>
-              <p>{p.description}</p>
-            </li>
+            <div className="project-card" key={p.id}>
+              <img src={"/public/images/" + p.image} alt={p.name} />
+
+              <div className="project-info">
+                <h3>{p.name}</h3>
+                <p>{p.description}</p>
+
+                
+                  <a className="btn" target="_blank">
+                    Ver proyecto
+                  </a>
+                
+              </div>
+            </div>
           ))
         ) : (
-          <li>Cargando proyectos...</li>
+          <p>Cargando proyectos...</p>
         )}
-      </ul>
-      <button onClick={goToLanding} style={{ marginTop: "20px" }}>
+      </div>
+
+      <button onClick={goToLanding} className="back-btn">
         Volver a inicio
       </button>
     </main>
   );
 }
+
 
