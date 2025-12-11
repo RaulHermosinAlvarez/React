@@ -7,7 +7,7 @@ export default function NewsletterInfoPage({ goToLanding }) {
         <h2>¡Se avecina un ovni!</h2>
 
         <img
-          src="./public/images/ovni.jpg"
+          src="../public/images/ovni.jpg"
           alt="ovni"
           className="newsletter-image"
         />
@@ -24,3 +24,4 @@ export default function NewsletterInfoPage({ goToLanding }) {
     </main>
   );
 }
+
